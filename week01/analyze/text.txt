@@ -1,0 +1,36 @@
+Analyse code
+
+1
+O(n^2)
+
+2
+a
+O(n+1+n+1)   O(2n+2)  O(n)
+
+b
+O(n^2 + 1)
+
+c
+O(n)
+
+
+4
+Put the following in order (best performance, …, worst performance) for when n is large:
+O(n^2), O(1), O(2^n), O(n log n), O(log n), O(n)
+
+O(1), O(log n), O(n), O(n log n), O(n^2), O(2^n)
+
+PART 2
+
+sorted1
+O(n)
+
+sorted2
+O(log n)
+
+
+5
+SearchSorted1: Its execution time increases proportionally to the size of the array because it checks elements one by one.
+SearchSorted2: Its execution time increases logarithmically because it eliminates half of the remaining elements at each iteration.
+
+SearchSorted2 is more efficient, especially when searching through large, sorted arrays.
